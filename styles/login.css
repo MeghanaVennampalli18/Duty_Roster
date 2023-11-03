@@ -1,0 +1,107 @@
+body{
+    font-family: Arial;
+    font-style: italic;
+    /* background-image: url('images/login_walpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    background-color: rgb(69, 69, 77);
+}
+.login-heading{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+.login-header{
+    display: block;
+
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 200px;
+}
+.login-container{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+.login-subcontainer-row1{
+    display: grid;
+    row-gap: 10px;
+    width: 300px;
+    height: 150px;
+    backdrop-filter: blur(8px);
+}
+.login-username,.login-password{
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(26, 87, 87);
+}
+.login-username::placeholder,.login-password::placeholder{
+    padding-left: 20px;
+    font-style: italic;
+    color: white;
+}
+.login-signin{
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(49, 49, 107);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.login-signin:hover{
+    background-color: rgb(79, 79, 134);
+    font-size: 15px;
+}
+.login-signup:hover{
+    background-color: white;
+    color: black;
+}
+.login-subcontainer-row3-columns{
+    display: block;
+    backdrop-filter: blur(8px);
+}
+.login-new-user{
+    display: inline;
+    margin-right: 130px;
+    color: white;
+}
+/* .login-fp-link{
+    color: blueviolet;
+    font-size: 15px;
+    display: block;
+    text-align: end;
+} */
+.login-signup{
+    border-radius: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+.login-subcontainer-row4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+.login-subcontainer-row4-columns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.login-otheraccount{
+    color: white;
+}
+.login-google:hover,.login-git:hover,.login-facebook:hover{
+    width: 40px;
+}

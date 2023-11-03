@@ -1,0 +1,150 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.todo-todo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.todo-subcontainer-row1-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+.todo-subcontaier-row2-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+}
+.todo-textbox{
+    height: 30px;
+    border: none;
+    background-color: rgb(224, 183, 183);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+}
+.todo-textbox::placeholder{
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(67, 64, 64);
+    
+}
+.todo-date{
+    font-style: italic;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(224, 183, 183);
+    font-weight: bold;
+    color: rgb(67, 64, 64);
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+    
+}
+.todo-add-button{
+    width: 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+}
+.todo-pending-button,.todo-clearall-button,.todo-all-button,.todo-completed-button{
+    height: 30px;
+    border: none;
+    background-color: rgb(153, 153, 131);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+}
+
+
+.todo-subcontainer-row3-listing-items div {
+    background-color: #b5b0b0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: medium;
+    display: flex;
+    
+}
+.todo-subcontainer-row3-listing-items .delete-button {
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    font-style: solid;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+    font-style: italic;
+}
+.todo-subcontainer-row3-listing-items .edit-button {
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    font-style: solid;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+    font-style: italic;
+}
+.todo-subcontainer-row3-listing-items div .div-delete{
+    margin: 0px 10px;
+}
+.todo-subcontainer-row3-listing-items div .todo-date{
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+}
+.todo-subcontainer-row3-listing-items div .todo-work{
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 2px 2px 2px rgb(129, 125, 125);
+}
+.todo-subcontainer-row3-listing-items div .div-edit{
+    margin: 0px 10px;
+    
+}
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+.todo-subcontainer-row3-listing-items {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo-logout{
+    /* background-color: rgb(71, 68, 68); */
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.todo-logout-container{
+    display: flex;
+    justify-content: end;
+}
